@@ -17,4 +17,13 @@ public class Book {
     private String author;
     private String isbnnumber;
 
+
+    public Book(String title, String author, String isbnnumber) {
+        this.title = title;
+        this.author = author;
+        this.isbnnumber = isbnnumber;
+    }
+
+
+
 }
