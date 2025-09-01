@@ -35,4 +35,12 @@ public class MemberService {
         memberRepository.deleteById(id);
     }
 
+    public List<Member> getMemberByUsername(String username) {
+        return memberRepository.findByUsername(username);
+    }
+
+    public boolean validMemberByUsernameAndPassword(String username, String password) {
+        return memberRepository.existsByUsernameAndPassword(username, password);
+    }
+
 }

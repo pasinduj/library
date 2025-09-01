@@ -16,7 +16,8 @@ public class Member {
     private String lastname;
     private String email;
     private String mobileno;
-
+    private String username;
+    private String password;
 
 
 }
